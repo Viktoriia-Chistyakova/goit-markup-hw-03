@@ -39,7 +39,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    outline: 1px solid red;
 }
 li {
     text-decoration: none;
@@ -323,10 +322,12 @@ a {
 .port-ex-item {
      flex-basis: calc((100% - var(--indent) * var(--items)) /var(--items));
      margin: calc(var(--indent) / 2);
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     border-left: 1px solid rgba(238, 238, 238, 1);
+     border-right: 1px solid rgba(238, 238, 238, 1);
+     border-bottom: 1px solid rgba(238, 238, 238, 1);
+
+
 }
-
-
 .mini-title-port {
     margin-top: 20px;
     margin-bottom: 4px;
