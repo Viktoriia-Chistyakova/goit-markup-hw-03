@@ -46,6 +46,10 @@ li {
     margin: 0;
     padding: 0;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -67,7 +71,7 @@ a {
     margin-right: 93px;
 }
 .header-nav {
-    background-color: #ECECEC;
+    border-bottom: 1px solid #ececec;
 }
 .studio-dark {
     color: var(--title-txt-cl);
@@ -109,9 +113,15 @@ a {
 .header-link:focus {
     color: var(--accent-txt-color)
 }
-
-.header-contacts {
+.list-contacts {
     margin-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-contacts {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -164,11 +174,15 @@ a {
     border-radius: 4px;
 
 }
+.portfolio {
+    padding: 94px 0;
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 50px;
 
 }
 .btn-port {
@@ -198,6 +212,7 @@ a {
 }
 
 .title {
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -217,6 +232,10 @@ a {
 }   
 .title::selection {
     background-color: var(--accent-txt-color);
+}
+.benefits {
+    padding-bottom: 0;
+
 }
 .benefits-list {
     display: flex;
@@ -240,6 +259,7 @@ a {
     margin-right: 30px;
 }
 .mini-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -257,6 +277,7 @@ a {
 }
 
 .secondary-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -279,7 +300,6 @@ a {
    margin-right: 30px;
 }
 .name {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -290,7 +310,6 @@ a {
 }
 
 .alt-description {
-    margin-bottom: 30px;
     color: var(--artcl-txt-cl);
     font-weight: 400;
     font-size: 16px;
@@ -298,7 +317,10 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
+.name-disc {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
 .alt-description {
     font-weight: 400;
     font-size: 16px;
@@ -314,24 +336,22 @@ a {
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent) / 2);
     margin-bottom: 94px;
-
-
-   
-    
 }
+.title-desc {
+    padding: 20px 24px;
+}
+
 .port-ex-item {
-     flex-basis: calc((100% - var(--indent) * var(--items)) /var(--items));
-     margin: calc(var(--indent) / 2);
-     border-left: 1px solid rgba(238, 238, 238, 1);
-     border-right: 1px solid rgba(238, 238, 238, 1);
-     border-bottom: 1px solid rgba(238, 238, 238, 1);
+    flex-basis: calc((100% - var(--indent) * var(--items)) /var(--items));
+    margin: calc(var(--indent) / 2);
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
 
 
 }
 .mini-title-port {
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -339,8 +359,6 @@ a {
 }
 
 .desc-port {
-    margin-bottom: 20px;
-    margin-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -351,6 +369,7 @@ a {
 .footer {
     background-color: #2F303A;
     text-decoration: none;
+    padding: 60px;
 }
 .footer-container {
     display: block;
@@ -368,6 +387,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
 }
+
 .footer-contacts-list {
     text-decoration: none;
     list-style: none;
