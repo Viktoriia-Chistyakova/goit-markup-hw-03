@@ -121,12 +121,14 @@ a {
 .header-contacts {
     padding-top: 32px;
     padding-bottom: 32px;
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--grey-txt-cl)
+}
+.header-list-contact:not(:last-child) {
+    margin-right: 50px;
 }
 .header-contacts-group {
     display: flex;
