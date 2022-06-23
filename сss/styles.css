@@ -374,8 +374,7 @@ a {
     padding: 60px;
 }
 .footer-container {
-    display: block;
-    padding: 60px;
+    display: block;  
 }
 .logo-footer {
     display: block;
