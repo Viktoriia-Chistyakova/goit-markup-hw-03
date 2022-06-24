@@ -337,7 +337,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent) / 2);
-    margin-bottom: 94px;
 }
 .title-desc {
     padding: 20px 24px;
